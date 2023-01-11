@@ -1,0 +1,20 @@
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 375px;
+  min-height: 90dvh;
+  padding: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    min-height: 93dvh;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}

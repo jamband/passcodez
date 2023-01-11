@@ -1,0 +1,20 @@
+.button {
+  background: rgb(var(--sky-500));
+  border-radius: 0.5rem;
+  box-shadow: 2px 4px 0 0 rgb(var(--sky-600));
+  color: rgb(var(--sky-50));
+  font-weight: bold;
+  padding: 0.75rem 1.25rem;
+}
+
+.button:active {
+  background: rgb(var(--sky-600));
+  box-shadow: 2px 4px 0 0 rgb(var(--sky-700));
+}
+
+.button:disabled {
+  background: rgb(var(--sky-500) / 50%);
+  box-shadow: 2px 4px 0 0 rgb(var(--sky-600) / 50%);
+  color: rgb(var(--sky-50)/ 50%);
+  cursor: not-allowed;
+}

@@ -1,0 +1,33 @@
+/// <reference types="vite/client" />
+/// <reference types="vitest" />
+
+import react from "@vitejs/plugin-react-swc";
+import autoprefixer from "autoprefixer";
+import { resolve } from "node:path";
+import { defineConfig } from "vite";
+
+const srcDir = resolve(__dirname, "src");
+
+export default defineConfig({
+  root: srcDir,
+  resolve: {
+    alias: { "~": srcDir },
+  },
+  css: {
+    postcss: {
+      plugins: [autoprefixer()],
+    },
+  },
+  build: {
+    outDir: "../dist",
+    emptyOutDir: true,
+  },
+  plugins: [react()],
+  test: {
+    globals: true,
+    cache: { dir: "../node_modules/.vitest" },
+    environment: "happy-dom",
+    setupFiles: "../vitest.setup.ts",
+    include: ["**/*.test.{ts,tsx}"],
+  },
+});

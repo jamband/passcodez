@@ -1,0 +1,31 @@
+.header {
+  align-items: center;
+  background: rgb(var(--sky-700));
+  color: rgb(var(--sky-100));
+  column-gap: 2rem;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  min-height: 10dvh;
+}
+
+@media (min-width: 640px) {
+  .header {
+    min-height: 7dvh;
+  }
+}
+
+.score {
+  font-family: var(--font-mono);
+}
+
+.reset-score {
+  background: rgb(var(--sky-600));
+  border-radius: 0.5rem;
+  color: rgb(var(--sky-100));
+  padding: 0.5rem 0.75rem;
+}
+
+.reset-score:active {
+  background: rgb(var(--sky-600)/50%);
+}

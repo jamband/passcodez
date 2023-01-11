@@ -1,0 +1,21 @@
+.pressed-code {
+  column-gap: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.number {
+  border-radius: 9999px;
+  height: 1rem;
+  width: 1rem;
+}
+
+.pressed {
+  background: rgb(var(--state-600));
+  border: 2px solid rgb(var(--state-600));
+}
+
+.not-pressed {
+  background: rgb(var(--state-50));
+  border: 2px solid rgb(var(--state-500));
+}

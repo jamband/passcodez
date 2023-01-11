@@ -1,0 +1,14 @@
+.button {
+  background: rgb(var(--sky-500));
+  border-radius: 9999px;
+  color: rgb(var(--sky-50));
+  font-family: var(--font-mono);
+  font-size: 1.75rem;
+  font-weight: bold;
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+.button:active {
+  background: rgb(var(--sky-600));
+}

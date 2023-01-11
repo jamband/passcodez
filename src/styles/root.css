@@ -1,0 +1,24 @@
+:root {
+  --state-50: 248 250 252;
+  --state-100: 241 245 249;
+  --state-200: 226 232 240;
+  --state-300: 203 213 225;
+  --state-400: 148 163 184;
+  --state-500: 100 116 139;
+  --state-600: 71 85 105;
+  --state-700: 51 65 85;
+  --state-800: 30 41 59;
+  --state-900: 15 23 42;
+  --sky-50: 240 249 255;
+  --sky-100: 224 242 254;
+  --sky-200: 186 230 253;
+  --sky-300: 125 211 252;
+  --sky-400: 56 189 248;
+  --sky-500: 14 165 233;
+  --sky-600: 2 132 199;
+  --sky-700: 3 105 161;
+  --sky-800: 7 89 133;
+  --sky-900: 12 74 110;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif;
+  --font-mono: ui-monospace, sfmono-regular, menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
+}

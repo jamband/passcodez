@@ -1,0 +1,11 @@
+@import url("the-new-css-reset/css/reset.css");
+
+:focus {
+  outline: revert;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
