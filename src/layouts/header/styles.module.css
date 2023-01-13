@@ -1,6 +1,6 @@
 .header {
   align-items: center;
-  background: rgb(var(--sky-700));
+  background: rgb(var(--sky-600));
   color: rgb(var(--sky-100));
   column-gap: 2rem;
   display: flex;
@@ -20,12 +20,12 @@
 }
 
 .reset-score {
-  background: rgb(var(--sky-600));
+  background: rgb(var(--sky-500));
   border-radius: 0.5rem;
   color: rgb(var(--sky-100));
   padding: 0.5rem 0.75rem;
 }
 
 .reset-score:active {
-  background: rgb(var(--sky-600)/50%);
+  background: rgb(var(--sky-500) / 50%);
 }
