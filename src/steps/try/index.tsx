@@ -1,5 +1,5 @@
+import { PASSCODE_ALLOW_NUMBERS, PASSCODE_LENGTH } from "@/constants";
 import { useEffect } from "react";
-import { PASSCODE_ALLOW_NUMBERS, PASSCODE_LENGTH } from "~/constants";
 import { Component } from "./component";
 import type { Props } from "./types";
 

@@ -11,7 +11,7 @@ const srcDir = resolve(__dirname, "src");
 export default defineConfig({
   root: srcDir,
   resolve: {
-    alias: { "~": srcDir },
+    alias: { "@": srcDir },
   },
   css: {
     postcss: {
