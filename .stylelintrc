@@ -2,7 +2,7 @@
   "extends": ["stylelint-config-standard"],
   "plugins": ["stylelint-order"],
   "rules": {
-    "max-line-length": null,
+    "declaration-property-value-no-unknown": true,
     "order/properties-alphabetical-order": true
   }
 }

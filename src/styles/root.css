@@ -1,4 +1,6 @@
 :root {
+  /* stylelint-disable-next-line value-keyword-case */
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
   --state-50: 248 250 252;
   --state-100: 241 245 249;
   --state-200: 226 232 240;
@@ -19,6 +21,4 @@
   --sky-700: 3 105 161;
   --sky-800: 7 89 133;
   --sky-900: 12 74 110;
-  --font-sans: ui-sans-serif, system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif;
-  --font-mono: ui-monospace, sfmono-regular, menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
 }
