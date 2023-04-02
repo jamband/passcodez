@@ -9,7 +9,7 @@
   min-height: 10dvh;
 }
 
-@media (min-width: 640px) {
+@media (width >= 640px) {
   .header {
     min-height: 7dvh;
   }
