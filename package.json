@@ -14,23 +14,23 @@
     "clean": "node scripts/clean.mjs"
   },
   "dependencies": {
-    "@playwright/test": "^1.32.1",
+    "@playwright/test": "^1.32.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/css-modules": "^1.0.2",
-    "@types/react": "^18.0.31",
+    "@types/react": "^18.0.35",
     "@types/react-dom": "^18.0.11",
-    "@typescript-eslint/eslint-plugin": "^5.57.0",
-    "@typescript-eslint/parser": "^5.57.0",
-    "@vitejs/plugin-react-swc": "^3.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "@vitejs/plugin-react-swc": "^3.3.0",
     "autoprefixer": "^10.4.14",
-    "eslint": "^8.37.0",
+    "eslint": "^8.38.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-testing-library": "^5.10.2",
-    "happy-dom": "^9.1.0",
+    "eslint-plugin-testing-library": "^5.10.3",
+    "happy-dom": "^9.6.1",
     "postcss": "^8.4.21",
     "prettier": "2.8.7",
     "react": "^18.2.0",
@@ -39,9 +39,9 @@
     "stylelint-config-standard": "^32.0.0",
     "stylelint-order": "^6.0.3",
     "the-new-css-reset": "^1.8.4",
-    "typescript": "^5.0.3",
+    "typescript": "^5.0.4",
     "vite": "^4.2.1",
-    "vitest": "^0.29.8"
+    "vitest": "^0.30.1"
   },
   "browserslist": [
     "defaults"
