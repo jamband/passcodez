@@ -3,6 +3,7 @@
 
 import react from "@vitejs/plugin-react-swc";
 import autoprefixer from "autoprefixer";
+import mediaMinMax from "postcss-media-minmax";
 import { resolve } from "node:path";
 import { defineConfig } from "vite";
 
@@ -15,7 +16,7 @@ export default defineConfig({
   },
   css: {
     postcss: {
-      plugins: [autoprefixer()],
+      plugins: [autoprefixer(), mediaMinMax()],
     },
   },
   build: {
