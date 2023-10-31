@@ -2,8 +2,6 @@
 /// <reference types="vitest" />
 
 import react from "@vitejs/plugin-react-swc";
-import autoprefixer from "autoprefixer";
-import mediaMinMax from "postcss-media-minmax";
 import { resolve } from "node:path";
 import { defineConfig } from "vite";
 
@@ -13,11 +11,6 @@ export default defineConfig({
   root: srcDir,
   resolve: {
     alias: { "@": srcDir },
-  },
-  css: {
-    postcss: {
-      plugins: [autoprefixer(), mediaMinMax()],
-    },
   },
   build: {
     outDir: "../dist",
