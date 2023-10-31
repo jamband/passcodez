@@ -2,17 +2,7 @@ body,
 html {
   background: rgb(var(--state-50));
   color: rgb(var(--state-600));
-  font-family:
-    ui-sans-serif,
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    "Noto Sans",
-    sans-serif;
+  font-family: system-ui, Arial, sans-serif;
   font-size: 1.0625rem;
   line-height: 1.4;
 }

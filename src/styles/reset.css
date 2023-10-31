@@ -1,4 +1,4 @@
-@import url("the-new-css-reset/css/reset.css");
+@import url("the-new-css-reset");
 
 :focus {
   outline: revert;
