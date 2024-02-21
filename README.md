@@ -9,7 +9,7 @@ example demo app with react.
 - Hosting: Cloudflare Pages
 - Build: Vite
 - Language & Library: TypeScript, React
-- CSS: The New CSS Reset, CSS Modules, PostCSS, Autoprefixer
+- CSS: The New CSS Reset, CSS Modules
 - Lint & Formatter: ESLint, Stylelint, Prettier
 - Testing: Vitest, React Testing Library, Playwright
 
