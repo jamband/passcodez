@@ -1,11 +1,19 @@
-import type { PlaywrightTestConfig } from "@playwright/test";
+import { defineConfig, devices } from "@playwright/test";
 
-const config: PlaywrightTestConfig = {
+export default defineConfig({
   testMatch: "**/*.spec.ts",
   webServer: {
     command: "npm run build && npm run preview",
     port: 4173,
   },
-};
-
-export default config;
+  projects: [
+    {
+      name: "chromium",
+      use: { ...devices["Desktop Chrome"] },
+    },
+    {
+      name: "firefox",
+      use: { ...devices["Desktop Firefox"] },
+    },
+  ],
+});
