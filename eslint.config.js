@@ -29,7 +29,7 @@ export default ts.config(
     ...jsxA11y.flatConfigs.recommended,
   },
   {
-    files: ["src/**/*.test.tsx"],
+    files: ["src/**/*.test.{ts,tsx}"],
     ...testingLibrary.configs["flat/react"],
   },
 );
