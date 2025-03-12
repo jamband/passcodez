@@ -16,7 +16,7 @@
     "verbatimModuleSyntax": true,
     "noEmit": true,
     "paths": { "@/*": ["./src/*"] },
-    "types": ["@types/css-modules", "vitest/globals"],
+    "types": ["vitest/globals"],
     "jsx": "react-jsx"
   },
   "include": ["src", "vitest.setup.ts"]

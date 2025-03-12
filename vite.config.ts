@@ -1,4 +1,3 @@
-/// <reference types="vite/client" />
 /// <reference types="vitest/config" />
 
 import { resolve } from "node:path";
