@@ -1,8 +1,7 @@
 {
   "recommendations": [
+    "biomejs.biome",
     "clinyong.vscode-css-modules",
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
     "stylelint.vscode-stylelint"
   ]
 }
