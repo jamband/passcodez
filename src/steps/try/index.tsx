@@ -4,6 +4,7 @@ import { Component } from "./component";
 import type { Props } from "./types";
 
 export const StepTry: React.FC<Props> = (props) => {
+  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
   useEffect(() => {
     if (props.pressedCode.state.length === PASSCODE_LENGTH) {
       props.step.set("finish");
@@ -12,7 +13,7 @@ export const StepTry: React.FC<Props> = (props) => {
         props.score.increase();
       }
     }
-  }, [props.passcode.state, props.pressedCode.state]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [props.passcode.state, props.pressedCode.state]);
 
   return <Component {...props} numbers={PASSCODE_ALLOW_NUMBERS} />;
 };
