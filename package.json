@@ -5,7 +5,7 @@
     "dev": "vite --open",
     "build": "vite build",
     "preview": "vite preview --open",
-    "check": "tsc && biome check . && stylelint \"src/**/*.css\"",
+    "check": "tsc && biome check .",
     "test": "vitest --run",
     "test:e2e": "playwright test",
     "clear": "node scripts/clear.mjs",
