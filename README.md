@@ -10,7 +10,7 @@ example demo app with react.
 - Build: Vite
 - Language & Library: TypeScript, React
 - CSS: The New CSS Reset, CSS Modules
-- Lint & Formatter: ESLint, Stylelint, Prettier
+- Lint & Formatter: Biome
 - Testing: Vitest, React Testing Library, Playwright
 
 ## Related repositories
