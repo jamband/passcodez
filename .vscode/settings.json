@@ -6,5 +6,7 @@
     "quickfix.biome": "explicit",
     "source.organizeImports.biome": "explicit"
   },
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "html.format.extraLiners": "",
+  "html.format.wrapLineLength": 0
 }
