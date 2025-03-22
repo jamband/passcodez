@@ -1,4 +1,4 @@
-import type { useScore } from "@/hooks/score";
+import type { useScore } from "../../hooks/score";
 
 export type Props = {
   score: ReturnType<typeof useScore>;

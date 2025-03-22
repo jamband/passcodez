@@ -1,4 +1,4 @@
-import { PASSCODE_LENGTH } from "@/constants";
+import { PASSCODE_LENGTH } from "../../constants";
 import styles from "./styles.module.css";
 import type { _Props } from "./types";
 

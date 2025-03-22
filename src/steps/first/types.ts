@@ -1,6 +1,6 @@
-import type { usePasscode } from "@/hooks/passcode";
-import type { usePressedCode } from "@/hooks/pressed-code";
-import type { useStep } from "@/hooks/step";
+import type { usePasscode } from "../../hooks/passcode";
+import type { usePressedCode } from "../../hooks/pressed-code";
+import type { useStep } from "../../hooks/step";
 
 export type Props = {
   step: ReturnType<typeof useStep>;

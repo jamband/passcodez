@@ -1,6 +1,6 @@
-import { PASSCODE_LENGTH } from "@/constants";
-import { generatePasscode } from "@/utils";
 import { useState } from "react";
+import { PASSCODE_LENGTH } from "../../constants";
+import { generatePasscode } from "../../utils";
 
 export const usePasscode = () => {
   const initialState = generatePasscode(PASSCODE_LENGTH);
