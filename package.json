@@ -5,14 +5,14 @@
     "dev": "vite --open",
     "build": "vite build",
     "preview": "vite preview --open",
-    "check": "tsc && biome check .",
+    "check": "tsc && biome check",
     "test": "vitest --run",
     "test:e2e": "playwright test",
     "clear": "node scripts/clear.js",
     "clean": "node scripts/clean.js"
   },
   "dependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.0.4",
     "@playwright/test": "1.52.0",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.3.0",

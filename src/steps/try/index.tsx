@@ -4,7 +4,7 @@ import { Component } from "./component";
 import type { Props } from "./types";
 
 export const StepTry: React.FC<Props> = (props) => {
-  // biome-ignore lint/correctness/useExhaustiveDependencies: <explanation>
+  // biome-ignore lint/correctness/useExhaustiveDependencies: reason
   useEffect(() => {
     if (props.pressedCode.state.length === PASSCODE_LENGTH) {
       props.step.set("finish");

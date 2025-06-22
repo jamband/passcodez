@@ -5,7 +5,7 @@ import type { _Props } from "./types";
 export const Component: React.FC<_Props> = (props) => (
   <div className={styles.passcode}>
     {[...Array(PASSCODE_LENGTH)].map((_, index) => (
-      // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
+      // biome-ignore lint/suspicious/noArrayIndexKey: reason
       <div key={index} className={styles.number}>
         {props.passcode[index]}
       </div>
