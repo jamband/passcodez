@@ -1,3 +1,5 @@
+@import url("the-new-css-reset");
+
 :root {
   --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
   --state-50: 248 250 252;
@@ -20,4 +22,23 @@
   --sky-700: 3 105 161;
   --sky-800: 7 89 133;
   --sky-900: 12 74 110;
+}
+
+body,
+html {
+  background: rgb(var(--state-50));
+  color: rgb(var(--state-600));
+  font-family: system-ui, Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.4;
+}
+
+:focus {
+  outline: revert;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
 }
