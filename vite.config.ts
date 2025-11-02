@@ -9,5 +9,7 @@ export default defineConfig({
     environment: "happy-dom",
     setupFiles: "vitest.setup.ts",
     include: ["src/**/*.test.{ts,tsx}"],
+    isolate: false,
+    maxWorkers: 1,
   },
 });
