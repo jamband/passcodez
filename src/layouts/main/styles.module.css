@@ -8,7 +8,7 @@
   padding: 1rem;
 }
 
-@media (min-width: 768px) {
+@media (width >= 768px) {
   .container {
     min-height: 93dvh;
   }
