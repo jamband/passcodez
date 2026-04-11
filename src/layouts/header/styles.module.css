@@ -7,10 +7,8 @@
   font-weight: bold;
   justify-content: center;
   min-height: 10dvh;
-}
 
-@media (width >= 48rem) {
-  .header {
+  @media (width >= 48rem) {
     min-height: 7dvh;
   }
 }
@@ -24,8 +22,8 @@
   border-radius: 0.5rem;
   color: rgb(var(--sky-100));
   padding: 0.5rem 0.75rem;
-}
 
-.reset-score:active {
-  background: rgb(var(--sky-500) / 50%);
+  &:active {
+    background: rgb(var(--sky-500) / 50%);
+  }
 }

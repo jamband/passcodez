@@ -6,10 +6,8 @@
   max-width: 375px;
   min-height: 90dvh;
   padding: 1rem;
-}
 
-@media (width >= 48rem) {
-  .container {
+  @media (width >= 48rem) {
     min-height: 93dvh;
   }
 }

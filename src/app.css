@@ -24,8 +24,7 @@
   --sky-900: 12 74 110;
 }
 
-body,
-html {
+body {
   background: rgb(var(--state-50));
   color: rgb(var(--state-600));
   font-family: system-ui, Arial, sans-serif;
@@ -33,12 +32,12 @@ html {
   line-height: 1.4;
 }
 
-:focus {
-  outline: revert;
-}
-
 button {
   cursor: pointer;
   display: inline-block;
   text-align: center;
+}
+
+:focus {
+  outline: revert;
 }
