@@ -3,7 +3,7 @@ import { defineConfig, devices } from "@playwright/test";
 export default defineConfig({
   testMatch: "src/**/*.spec.ts",
   webServer: {
-    command: "npm run build && npm run preview",
+    command: "pnpm build && pnpm preview",
     port: 4173,
   },
   projects: [
