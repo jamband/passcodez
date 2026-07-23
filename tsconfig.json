@@ -2,12 +2,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "lib": ["ESNext", "DOM"],
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
     "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
     "verbatimModuleSyntax": true,
     "noEmit": true,
     "jsx": "react-jsx"
